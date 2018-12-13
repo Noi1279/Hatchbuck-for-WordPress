@@ -1,0 +1,15 @@
+.wp-block-cgb-block-guten-load-hb_form {
+  padding: 0.5em;
+
+  &.no-hb_form {
+    background: yellow;
+    animation: none;
+  }
+  &.loading {
+    animation: pulse 3s infinite;
+  }
+
+  &.has-hb_form {
+    animation: none;
+  }
+}
