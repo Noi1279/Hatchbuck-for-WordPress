@@ -1,15 +1,15 @@
-.wp-block-cgb-block-guten-load-hb_form {
-  padding: 0.5em;
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
 
-  &.no-hb_form {
-    background: yellow;
-    animation: none;
-  }
-  &.loading {
-    animation: pulse 3s infinite;
-  }
-
-  &.has-hb_form {
-    animation: none;
-  }
+.wp-block-cgb-block-gutenberg-form-block  {
+  /** background: $green;
+  border: 0.2rem solid $black;
+  color: $black;
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 2rem; */
 }
